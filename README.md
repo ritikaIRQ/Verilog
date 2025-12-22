@@ -1,7 +1,7 @@
 # Verilog
 Synthesizable verilog codes for practice
 
-1- Logic Gates using Gate Level model
+1- Logic Gates using Gate Level model 
 2- Logic Gates using Data model
 3- Half Adder
 4- Full Adder
