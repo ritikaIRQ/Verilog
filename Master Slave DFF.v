@@ -11,6 +11,16 @@ module master_slave_dff(input clk, rst,
                             if(rst)
                                 master <= 0;
                             else 
-                            master d;
-                            else
+                            master <= d;
+                        end
+
+                        always@(negedge clk) begin
+                          if(rst) 
+                              q <= 0;
+                          else
+                              q <= master;
+                        end
+
+endmodule
                             
+
